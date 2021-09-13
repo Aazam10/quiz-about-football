@@ -1,7 +1,7 @@
 var readlineSync=require("readline-sync")
 const chalk = require('chalk');
 var userName=readlineSync.question("Hi!what is your name?"+"\n");
-console.log("Welcome" + " "+chalk.blue(userName)+" Lets see how well you know me?\n");
+console.log("Welcome" + " "+chalk.blue(userName)+" Lets see how well do you know football?\n");
 console.log("The answers are case sensitive so type the answer as you see in the options\n")
 
 var questionOne={
